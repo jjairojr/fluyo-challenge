@@ -1,4 +1,4 @@
-# Project Name
+# Fluyo Challenge
 
 I, Jairo, recently took on a translation game challenge as part of the technical assessment for Fluyo, and I must say it was a lot of fun! The average time I spent on the test, including both coding and project setup, was approximately 3 hours and 30 minutes. It was an enjoyable experience, and I'm excited to share the project with you.
 
@@ -30,12 +30,13 @@ To get started with this project, follow these steps:
 2. Install the necessary dependencies by running `npm install` or `yarn install`.
 3. Create a `.env` file in the project root directory.
 4. Copy the content from `.env.example` and paste it into the `.env` file.
-5. Start the development server using `npm start` or `yarn start`.
+5. Start the development server using `npx expo start`.
 6. Enjoy exploring and developing with the project!
 
-## License
 
-This project is licensed under the [MIT License](LICENSE.md). You can find more details in the [LICENSE.md](LICENSE.md) file.
+## Preview
+
+https://github.com/jjairojr/fluyo-challenge/assets/44951083/f5f0a687-5bb4-436c-93bc-327c197888c8
 
 ## Acknowledgments
 
