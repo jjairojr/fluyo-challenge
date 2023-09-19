@@ -1,20 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { ThemeProvider, useTheme } from 'styled-components/native'
+import { Home } from './src/screens/Home'
+import { theme } from './src/theme/theme'
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
+import { QueryClientProvider } from 'react-query'
+import { queryClient } from './src/lib/react-query'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider theme={theme}>
+        <SafeAreaProvider>
+          <SafeAreaView
+            edges={['right', 'top', 'left']}
+            style={{ flex: 1, backgroundColor: '#75DAFE' }}
+          >
+            <Home />
+          </SafeAreaView>
+        </SafeAreaProvider>
+      </ThemeProvider>
+    </QueryClientProvider>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
