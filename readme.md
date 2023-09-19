@@ -37,7 +37,3 @@ To get started with this project, follow these steps:
 ## Preview
 
 https://github.com/jjairojr/fluyo-challenge/assets/44951083/f5f0a687-5bb4-436c-93bc-327c197888c8
-
-## Acknowledgments
-
-Any acknowledgments or credits for third-party libraries, resources, or inspiration can be added here.
